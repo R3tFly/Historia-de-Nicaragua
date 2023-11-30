@@ -572,6 +572,13 @@ html {
       background: url("../images/fondo2.jpeg") no-repeat center top;
       background-size: cover; }
 
+@media screen and (max-width: 768px) {
+          .imagenxd2{
+            width: 410px;
+            height: 250px;
+          }
+        }
+
   @media (min-width: 992px) {
     html {
       font-size: 16px; }
