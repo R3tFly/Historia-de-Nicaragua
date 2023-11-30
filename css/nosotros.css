@@ -574,9 +574,13 @@ html {
 
 @media screen and (max-width: 768px) {
           .imagenxd2{
-            width: 310px;
+            width: 250px;
             height: 250px;
           }
+    .imagenxd{
+        width: 250px;
+        height: 250px;
+      }
         }
 
   @media (min-width: 992px) {
