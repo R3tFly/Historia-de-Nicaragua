@@ -422,6 +422,45 @@ body {
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d; }
 
+.parrafoxd{
+      margin-left: 100px;
+      margin-right: 100px;
+      width: 600px;
+      font-family: Arial;
+      color: black; /* Color del texto */
+      font-size: 16px;
+      line-height: 1.5;
+      text-align: justify;
+      text-align-last: left;
+      text-justify: inter-word;
+      margin-bottom: 1em; /* Espaciado entre párrafos */
+      text-indent: 5em; /* Sangría de 5 espacios en la primera línea */
+    }
+
+    .tituloxd{
+      margin-left: 100px;
+      margin-right: 100px;
+      font-family: Arial;
+      color: black; /* Color del texto */
+      font-size: 16px;
+      line-height: 1.5;
+      text-align: justify;
+    }
+
+    .imagenxd{
+      width: 300px;
+      height: 250px;
+    }
+
+    .redondoxd{
+      border-radius: 50%;
+      border: 3px solid #000;
+    }
+
+    .negro{
+      color: #111111;
+    }
+
 @media (min-width: 768px) {
   #menu-principal {
     height: auto !important;
@@ -541,44 +580,7 @@ body {
         -ms-flex-direction: column;
             flex-direction: column; }
 
-    .parrafoxd{
-      margin-left: 100px;
-      margin-right: 100px;
-      width: 600px;
-      font-family: Arial;
-      color: black; /* Color del texto */
-      font-size: 16px;
-      line-height: 1.5;
-      text-align: justify;
-      text-align-last: left;
-      text-justify: inter-word;
-      margin-bottom: 1em; /* Espaciado entre párrafos */
-      text-indent: 5em; /* Sangría de 5 espacios en la primera línea */
-    }
-
-    .tituloxd{
-      margin-left: 100px;
-      margin-right: 100px;
-      font-family: Arial;
-      color: black; /* Color del texto */
-      font-size: 16px;
-      line-height: 1.5;
-      text-align: justify;
-    }
-
-    .imagenxd{
-      width: 300px;
-      height: 250px;
-    }
-
-    .redondoxd{
-      border-radius: 50%;
-      border: 3px solid #000;
-    }
-
-    .negro{
-      color: #111111;
-    }
+    
   .paginas-internas .lista-servicios .item-servicios .btn-primary {
     margin-top: auto; } }
 @media (min-width: 992px) {
