@@ -567,13 +567,16 @@ html {
   
     .paginas-internas .lista-servicios .item-servicios .btn-primary {
       margin-top: auto; } }
+
+.bienvenidos {
+      background: url("../images/fondo2.jpeg") no-repeat center top;
+      background-size: cover; }
+
   @media (min-width: 992px) {
     html {
       font-size: 16px; }
   
-    .bienvenidos {
-      background: url("../images/fondo2.jpeg") no-repeat center top;
-      background-size: cover; }
+    
   
     .tu-mejor-eleccion ul li {
       display: -webkit-box;
